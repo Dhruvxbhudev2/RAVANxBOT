@@ -1,2 +1,2 @@
-worker: python3 -m TGNRobot
+worker: python3 -m DevXRobot
 ps:scale worker=1
