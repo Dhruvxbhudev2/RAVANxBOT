@@ -76,42 +76,42 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 𝙷𝙾𝙸, 𝙸 𝙼 𝗗𝗲𝘃ꗄ➺✘「🇮🇳」𝚁𝙾𝙱𝙾𝚃 💞........
 `𝙷𝙴𝚈 𝙸'𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂 𝙰𝙽𝙳 𝙸 𝙰𝙼 𝚅𝙴𝚁𝚈 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙱𝙾𝚃!!😅😁💕 𝙷𝙸𝚃 𝙰𝙳𝙳 𝙼𝙴 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁 😎😎😎 ,𝙵𝙾𝚁 𝙱𝙾𝚃 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄 𝚃𝚈𝙿𝙴` /help 💖
- [💞](https://telegra.ph/file/b06da593b57ba8ce5dfb8.jpg)
+ [💞](https://telegra.ph/file/65653f2f1db3f666cf593.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="🌟𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚄𝚛 𝙶𝚛𝚘𝚞𝚙 𝚂𝚊𝚊𝚛🌟", url="t.me/DevX_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="💖𝙲𝚑𝚊𝚝𝚝𝚒𝚗𝚐 𝚐𝚛𝚘𝚞𝚙💖", url=f"https://t.me/kritismile1"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="√𝙱𝚘𝚝 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="💝𝙼𝚢 𝙾𝚠𝚗𝚎𝚛💝", url=f"https://t.me/DEVX_OWNER"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="🔥•⏤͟͟͞͞★εʀᴀ-✘ꗄ➺「⁣🇮🇳」🔥", url=f"https://t.me/EraaX_Robot"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="🚀𝙰𝙱𝙾𝚄𝚃 & 𝙷𝙴𝙻𝙿🚀", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
+`𝚈𝙾𝚄 𝙲𝙰𝙽 𝙲𝙷𝙾𝙾𝚂𝙴 𝙰𝙽 𝙾𝙿𝚃𝙸𝙾𝙽 𝙱𝙴𝙻𝙾𝚆, 𝙱𝚈 𝙲𝙻𝙸𝙲𝙺𝙸𝙽𝙶 𝙰 𝙱𝚄𝚃𝚃𝙾𝙽 𝚂𝙰𝙰𝚁 ✌️✌️..`
+𝙰𝙻𝚂𝙾 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝚂𝙺 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ❤️❤️🙈 [❤️](https://telegra.ph/file/65653f2f1db3f666cf593.jpg)"""
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
+START_IMG = "https://telegra.ph/file/dada7b9e1df046a60d5e1.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [SPARKEL](t.me/kritismile1) \
- Supporting isnt always financial! [ THN BOTS](https://t.me/THN_BOTS) \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """𝙷𝚎𝚢𝚊, 𝚐𝚕𝚊𝚍 𝚝𝚘 𝚑𝚎𝚊𝚛 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚍𝚘𝚗𝚊𝚝𝚎💞!
+ 𝚈𝚘𝚞 𝚌𝚊𝚗 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝🥲 [SPARKEL](t.me/kritismile1) \
+ 𝚂𝚞𝚙𝚙𝚘𝚛𝚝𝚒𝚗𝚐 𝚒𝚜𝚗𝚝 𝚊𝚕𝚠𝚊𝚢𝚜 𝚏𝚒𝚗𝚊𝚗𝚌𝚒𝚊𝚕😁💖! [ THN BOTS](https://t.me/THN_BOTS) \
+ 𝚃𝚑𝚘𝚜𝚎 𝚠𝚑𝚘 𝚌𝚊𝚗𝚗𝚘𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚗𝚎𝚝𝚊𝚛𝚢 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚊𝚛𝚎 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚞𝚜 𝚍𝚎𝚟𝚎𝚕𝚘𝚙 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚊𝚝💖 ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code>Zaid is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code>┗°•°⚡𝗗𝗲𝘃ꗄ➺✘「🇮🇳」 𝚒𝚜 𝙷𝚎𝚛𝚎 𝙵𝚘𝚛 𝚈𝚘𝚞 🎀 𝙸 𝚊𝚖 𝙰𝚠𝚊𝚔𝚎 𝚂𝚊𝚊𝚛⚡°•°┛┗°♻️•°:🚀𝚜𝚒𝚗𝚌𝚎🤨🚀:</code>: <code>{}</code>🚀:°•♻️°┛".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -367,8 +367,8 @@ def zaid_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @TGN\_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
+                 \n❍ Assistant SOON💔.
+                 \nHere is the [💫Repository💫](https://github.com/HyperAD/Dev-XRobot).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -396,7 +396,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I am [DevX-Robot](t.me/DevX_Robot)
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+                 \nHere is the [Source Code](https://github.com/HyperAD/Dev-XRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -447,7 +447,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="𝐇𝐄𝐋𝐏😇",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -627,7 +627,7 @@ def get_settings(update: Update, context: CallbackContext):
                 ),
             )
         else:
-            text = "Click here to check your settings."
+            text = "Click here to check your settings Saar😗🥲."
 
     else:
         send_settings(chat.id, user.id, True)
@@ -691,7 +691,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🚀𝙽𝚘𝚠 𝙸 𝙰𝚖 𝙹𝚒𝚗𝚍𝚊 𝚂𝚊𝚊𝚛🚀")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
