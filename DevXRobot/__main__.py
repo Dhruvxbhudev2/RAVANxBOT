@@ -104,9 +104,9 @@ buttons = [
 
 HELP_STRINGS = """
 `𝚈𝙾𝚄 𝙲𝙰𝙽 𝙲𝙷𝙾𝙾𝚂𝙴 𝙰𝙽 𝙾𝙿𝚃𝙸𝙾𝙽 𝙱𝙴𝙻𝙾𝚆, 𝙱𝚈 𝙲𝙻𝙸𝙲𝙺𝙸𝙽𝙶 𝙰 𝙱𝚄𝚃𝚃𝙾𝙽 𝚂𝙰𝙰𝚁 ✌️✌️..`
-𝙰𝙻𝚂𝙾 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝚂𝙺 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ❤️❤️🙈 [❤️](https://telegra.ph/file/b3da24a70edf2cf8395e4.jpg)"""
+𝙰𝙻𝚂𝙾 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝚂𝙺 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ❤️❤️🙈 [❤️](https://telegra.ph/file/6c66c67c6aeac89e3a487.jpg)"""
 
-START_IMG = "https://telegra.ph/file/3f2c4368b7f9b574d6fa8.mp4"
+START_IMG = "https://telegra.ph/file/356a4db58e0a43d67dc85.mp4"
 
 DONATE_STRING = """𝙷𝚎𝚢𝚊, 𝚐𝚕𝚊𝚍 𝚝𝚘 𝚑𝚎𝚊𝚛 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚍𝚘𝚗𝚊𝚝𝚎💞!
  𝚈𝚘𝚞 𝚌𝚊𝚗 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝🥲 [𝚃𝙷𝙽 𝙱𝙾𝚃𝚂](t.me/THN_BOTS_SUPPORT) \
