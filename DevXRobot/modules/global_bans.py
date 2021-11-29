@@ -300,7 +300,7 @@ def ungban(update: Update, context: CallbackContext):
         message.reply_text("This user is not gbanned♻️!")
         return
 
-    message.reply_text(f"I'll give {user_chat.first_name} a second chance, globally.")
+    message.reply_text(f"𝙾𝙺 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝙱 {user_chat.first_name} 𝙰 𝚂𝙴𝙲𝙾𝙽𝙳 𝙲𝙷𝙰𝙽𝙲𝙴 𝙶𝙻𝙾𝙱𝙰𝙻𝙻𝚈 , 𝙶𝙾 𝙽𝙳 𝙿𝙻𝙰𝚈 𝙵𝚁𝙴𝙴𝙻𝚈 𝙺𝙸𝙳𝙳😁.")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
@@ -382,9 +382,9 @@ def ungban(update: Update, context: CallbackContext):
 
     if ungban_time > 60:
         ungban_time = round((ungban_time / 60), 2)
-        message.reply_text(f"Person has been un-gbanned. Took {ungban_time} min")
+        message.reply_text(f"𝙻𝙾𝙻 𝙾𝙺 𝙼𝙰𝚂𝚃𝙴𝚁 𝙸 𝙰𝙼 𝙶𝙾𝙸𝙽𝙶 𝚃𝙾 𝚄𝙽𝙶𝙱𝙰𝙽 𝚃𝙷𝙸𝚂 𝙽𝙾𝙾𝙱 𝙶𝚁𝙾𝚆 𝚄𝙿 𝙺𝙸𝙳𝙳 𝚃𝙷𝙴𝙽 𝙲𝙾𝙼𝙴 𝙵𝙾𝚁 𝙵𝙸𝙶𝙷𝚃😼😹, 𝚄𝙽𝙱𝙰𝙽𝙽𝙴𝙳 𝙸𝙽 {ungban_time} 𝚖𝚒𝚗")
     else:
-        message.reply_text(f"Person has been un-gbanned. Took {ungban_time} sec")
+        message.reply_text(f"𝙻𝙾𝙻 𝙾𝙺 𝙼𝙰𝚂𝚃𝙴𝚁 𝙸 𝙰𝙼 𝙶𝙾𝙸𝙽𝙶 𝚃𝙾 𝚄𝙽𝙶𝙱𝙰𝙽 𝚃𝙷𝙸𝚂 𝙽𝙾𝙾𝙱 𝙶𝚁𝙾𝚆 𝚄𝙿 𝙺𝙸𝙳𝙳 𝚃𝙷𝙴𝙽 𝙲𝙾𝙼𝙴 𝙵𝙾𝚁 𝙵𝙸𝙶𝙷𝚃😼😹, 𝚄𝙽𝙱𝙰𝙽𝙽𝙴𝙳 𝙸𝙽 {ungban_time} 𝚜𝚎𝚌")
 
 
 @run_async
