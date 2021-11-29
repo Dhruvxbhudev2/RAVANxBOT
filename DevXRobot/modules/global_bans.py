@@ -149,7 +149,7 @@ def gban(update: Update, context: CallbackContext):
         )
         if old_reason:
             message.reply_text(
-                "This user is already gbanned, for the following reason:\n"
+                "This user is already gbanned😹, for the following reason:\n"
                 "<code>{}</code>\n"
                 "I've gone and updated it with your new reason!".format(
                     html.escape(old_reason)
@@ -159,12 +159,12 @@ def gban(update: Update, context: CallbackContext):
 
         else:
             message.reply_text(
-                "This user is already gbanned, but had no reason set; I've gone and updated it!"
+                "This user is already gbanned😹, but had no reason set; I've gone and updated it!"
             )
 
         return
 
-    message.reply_text("On it!")
+    message.reply_text("𝚆𝙰𝙸𝚃 𝙳𝚄𝙳𝙴 𝙸'𝙼 𝙶𝙱𝙰𝙽𝙽𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙽𝙸𝙶𝙶𝙰😼💣")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
@@ -176,12 +176,12 @@ def gban(update: Update, context: CallbackContext):
         chat_origin = "<b>{}</b>\n".format(chat.id)
 
     log_message = (
-        f"#GBANNED\n"
-        f"<b>Originated from:</b> <code>{chat_origin}</code>\n"
-        f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
-        f"<b>Banned User:</b> {mention_html(user_chat.id, user_chat.first_name)}\n"
-        f"<b>Banned User ID:</b> <code>{user_chat.id}</code>\n"
-        f"<b>Event Stamp:</b> <code>{current_time}</code>"
+        f"#𝙶𝙱𝙰𝙽𝙽𝙴𝙳_𝙾𝙿\n"
+        f"<b>𝙶𝙱𝙰𝙽𝙽𝙴𝙳 𝙵𝚁𝙾𝙼:</b> <code>{chat_origin}</code>\n"
+        f"<b>𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙸𝙱𝙻𝙴 𝙰𝙳𝙼𝙸𝙽:</b> {mention_html(user.id, user.first_name)}\n"
+        f"<b>𝙱𝙰𝙽𝙽𝙴𝙳 𝙽𝙸𝙶𝙶𝙰:</b> {mention_html(user_chat.id, user_chat.first_name)}\n"
+        f"<b>𝙽𝙸𝙶𝙶𝙰'𝚂 𝙸𝙳:</b> <code>{user_chat.id}</code>\n"
+        f"<b>𝙴𝚅𝙴𝙽𝚃 𝚂𝚃𝙰𝙼𝙿:</b> <code>{current_time}</code>"
     )
 
     if reason:
@@ -257,17 +257,17 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("𝙶𝙱𝙰𝙽 𝙳𝙾𝙽𝙴⚔️!! 𝙽𝙾𝚆 𝚃𝙷𝙸𝚂 𝙽𝙸𝙶𝙶𝙰 𝙵𝚄𝙲𝙺𝙴𝙳 𝚄𝙿 𝙷𝙰𝚁𝙳 𝙻𝙾𝙻 𝙺𝙸𝙳𝙳😼.", parse_mode=ParseMode.HTML)
     else:
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("𝙶𝙱𝙰𝙽 𝙳𝙾𝙽𝙴⚔️!! 𝙽𝙾𝚆 𝚃𝙷𝙸𝚂 𝙽𝙸𝙶𝙶𝙰 𝙵𝚄𝙲𝙺𝙴𝙳 𝚄𝙿 𝙷𝙰𝚁𝙳 𝙻𝙾𝙻 𝙺𝙸𝙳𝙳😼.", parse_mode=ParseMode.HTML)
 
     try:
         bot.send_message(
             user_id,
             "#EVENT"
             "You have been marked as Malicious and as such have been banned from any future groups we manage."
-            f"\n<b>Reason:</b> <code>{html.escape(user.reason)}</code>"
-            f"</b>Appeal Chat:</b> @{SUPPORT_CHAT}",
+            f"\n<b>𝚁𝙴𝙰𝚂𝙾𝙽 𝙵𝙾𝚁 𝙱𝙰𝙽𝙽:</b> <code>{html.escape(user.reason)}</code>"
+            f"</b>𝙰𝙿𝙿𝙴𝙰𝙻 𝙲𝙷𝙰𝚃:</b> @{SUPPORT_CHAT}",
             parse_mode=ParseMode.HTML,
         )
     except:
@@ -287,17 +287,17 @@ def ungban(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.."
+            "𝚈𝚘𝚞 𝚍𝚘𝚗'𝚝 𝚜𝚎𝚎𝚖 𝚝𝚘 𝚋𝚎 𝚛𝚎𝚏𝚎𝚛𝚛𝚒𝚗𝚐 𝚝𝚘 𝚊 𝚞𝚜𝚎𝚛 𝚘𝚛 𝚝𝚑𝚎 𝙸𝙳 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚎𝚍 𝚒𝚜 𝚒𝚗𝚌𝚘𝚛𝚛𝚎𝚌𝚝..𝙻𝚘𝚕 𝚃𝚑𝚒𝚜 𝚔𝚒𝚍𝚍 𝚒𝚜 𝚒𝚗𝚗𝚘𝚌𝚎𝚗𝚝🤭🤔"
         )
         return
 
     user_chat = bot.get_chat(user_id)
     if user_chat.type != "private":
-        message.reply_text("That's not a user!")
+        message.reply_text("That's not a user👊👊!")
         return
 
     if not sql.is_user_gbanned(user_id):
-        message.reply_text("This user is not gbanned!")
+        message.reply_text("This user is not gbanned♻️!")
         return
 
     message.reply_text(f"I'll give {user_chat.first_name} a second chance, globally.")
@@ -312,12 +312,12 @@ def ungban(update: Update, context: CallbackContext):
         chat_origin = f"<b>{chat.id}</b>\n"
 
     log_message = (
-        f"#UNGBANNED\n"
-        f"<b>Originated from:</b> <code>{chat_origin}</code>\n"
-        f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
-        f"<b>Unbanned User:</b> {mention_html(user_chat.id, user_chat.first_name)}\n"
-        f"<b>Unbanned User ID:</b> <code>{user_chat.id}</code>\n"
-        f"<b>Event Stamp:</b> <code>{current_time}</code>"
+        f"#𝚄𝙽𝙶𝙱𝙰𝙽𝙽𝙴𝙳_𝙾𝙿🔱\n"
+        f"<b>𝚄𝙽𝙱𝙰𝙽𝙽𝙴𝙳 𝙵𝚁𝙾𝙼:</b> <code>{chat_origin}</code>\n"
+        f"<b>𝙰𝙳𝙼𝙸𝙽:</b> {mention_html(user.id, user.first_name)}\n"
+        f"<b>𝚄𝙽𝙱𝙰𝙽𝙽𝙴𝙳 𝙺𝙸𝙳𝙳𝙾:</b> {mention_html(user_chat.id, user_chat.first_name)}\n"
+        f"<b>𝙺𝙸𝙳𝙳𝙾'𝚂 𝙸𝙳:</b> <code>{user_chat.id}</code>\n"
+        f"<b>𝙴𝚅𝙴𝙽𝚃 𝚂𝚃𝙰𝙼𝙿:</b> <code>{current_time}</code>"
     )
 
     if EVENT_LOGS:
@@ -425,11 +425,11 @@ def check_and_ban(update, user_id, should_message=True):
         update.effective_chat.kick_member(user_id)
         if should_message:
             update.effective_message.reply_text(
-                f"<b>Alert</b>: this user is globally banned.\n"
-                f"<code>*bans them from here*</code>.\n"
-                f"<b>Appeal chat</b>: {SPAMWATCH_SUPPORT_CHAT}\n"
-                f"<b>User ID</b>: <code>{sw_ban.id}</code>\n"
-                f"<b>Ban Reason</b>: <code>{html.escape(sw_ban.reason)}</code>",
+                f"<b>𝙰𝙻𝙴𝙰𝚁𝚃 𝙶𝚄𝚈𝚂⚠️</b>: 𝚃𝙷𝙸𝚂 𝚂𝚃𝚄𝙿𝙸𝙳 𝙺𝙸𝙳𝙳 𝙸𝚉 𝙶𝙻𝙾𝙱𝙴𝙻𝙻𝚈 𝙱𝙰𝙽𝙽𝙴𝙳.\n"
+                f"<code>*𝙱𝙰𝙽 𝙷𝙸𝙼 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴*</code>.\n"
+                f"<b>𝙰𝙿𝙿𝙴𝙰𝙻 𝙲𝙷𝙰𝚃</b>: {SPAMWATCH_SUPPORT_CHAT}\n"
+                f"<b>𝙺𝙸𝙳𝙳𝙾'𝚂 𝙸𝙳</b>: <code>{sw_ban.id}</code>\n"
+                f"<b>𝙱𝙰𝙽𝙽𝙴𝙳 𝚁𝙴𝙰𝚂𝙾𝙽</b>: <code>{html.escape(sw_ban.reason)}</code>",
                 parse_mode=ParseMode.HTML,
             )
         return
@@ -438,14 +438,14 @@ def check_and_ban(update, user_id, should_message=True):
         update.effective_chat.kick_member(user_id)
         if should_message:
             text = (
-                f"<b>Alert</b>: this user is globally banned.\n"
-                f"<code>*bans them from here*</code>.\n"
-                f"<b>Appeal chat</b>: @{SUPPORT_CHAT}\n"
-                f"<b>User ID</b>: <code>{user_id}</code>"
+                f"<b>𝙰𝙻𝙴𝙰𝚁𝚃 𝙶𝚄𝚈𝚂⚠️</b>: 𝚃𝙷𝙸𝚂 𝚂𝚃𝚄𝙿𝙸𝙳 𝙺𝙸𝙳𝙳 𝙸𝚉 𝙶𝙻𝙾𝙱𝙴𝙻𝙻𝚈 𝙱𝙰𝙽𝙽𝙴𝙳.\n"
+                f"<code>*𝙱𝙰𝙽 𝙷𝙸𝙼 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴*</code>.\n"
+                f"<b>𝙰𝙿𝙿𝙴𝙰𝙻 𝙲𝙷𝙰𝚃</b>: @{SUPPORT_CHAT}\n"
+                f"<b>𝙺𝙸𝙳𝙳𝙾'𝚂 𝙸𝙳</b>: <code>{user_id}</code>"
             )
             user = sql.get_gbanned_user(user_id)
             if user.reason:
-                text += f"\n<b>Ban Reason:</b> <code>{html.escape(user.reason)}</code>"
+                text += f"\n<b>𝙱𝙰𝙽𝙽𝙴𝙳 𝚁𝙴𝙰𝚂𝙾𝙽:</b> <code>{html.escape(user.reason)}</code>"
             update.effective_message.reply_text(text, parse_mode=ParseMode.HTML)
 
 
@@ -522,8 +522,8 @@ def __user_info__(user_id):
         text = text.format("Yes")
         user = sql.get_gbanned_user(user_id)
         if user.reason:
-            text += f"\n<b>Reason:</b> <code>{html.escape(user.reason)}</code>"
-        text += f"\n<b>Appeal Chat:</b> @{SUPPORT_CHAT}"
+            text += f"\n<b>𝙱𝙰𝙽𝙽𝙴𝙳 𝚁𝙴𝙰𝚂𝙾𝙽:</b> <code>{html.escape(user.reason)}</code>"
+        text += f"\n<b>𝙰𝙿𝙿𝙴𝙰𝙻 𝙲𝙷𝙰𝚃:</b> @{SUPPORT_CHAT}"
     else:
         text = text.format("???")
     return text
