@@ -87,7 +87,7 @@ buttons = [
     [
         InlineKeyboardButton(text="𝚂𝚘𝚞𝚛𝚌𝚎💠", url=f"https://github.com/HyperAD/Dev-XRobot"),
         InlineKeyboardButton(
-            text="√𝙱𝚘𝚝 𝚂𝚞𝚙𝚙𝚘𝚛𝚝⚡⚜️, url=f"https://t.me/{SUPPORT_CHAT}"
+            text="√𝙱𝚘𝚝 𝚂𝚞𝚙𝚙𝚘𝚛𝚝⚡⚜️", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
