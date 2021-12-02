@@ -74,26 +74,26 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝙾𝙸, 𝙸 𝙼 𝗗𝗲𝘃ꗄ➺✘「🇮🇳」𝚁𝙾𝙱𝙾𝚃 💞........
+𝙷𝙾𝙸, 𝙸 𝙼 ꧁☠︎ ︻╦̵̵͇ ╤─Rⱥvⱥή♛ ☠︎꧂「👿🇮🇳👿」𝚁𝙾𝙱𝙾𝚃 💞........
 `𝙷𝙴𝚈 𝙸'𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂 𝙰𝙽𝙳 𝙸 𝙰𝙼 𝚅𝙴𝚁𝚈 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙱𝙾𝚃!!😅😁💕 𝙷𝙸𝚃 𝙰𝙳𝙳 𝙼𝙴 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁 😎😎😎 ,𝙵𝙾𝚁 𝙱𝙾𝚃 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄 𝚃𝚈𝙿𝙴` /help 💖
- [💞](https://telegra.ph/file/6c66c67c6aeac89e3a487.jpg)
+ [💞](https://te.legra.ph/file/3972670188dd54a994ea3.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚄𝚛 𝙶𝚛𝚘𝚞𝚙 𝚂𝚊𝚊𝚛🥲", url="t.me/DevX_Robot?startgroup=true"),
+            text="Leke Chalo Group me or BHOKAL DEKHO", url="t.me/ravan_the_grp_managerbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="𝚂𝚘𝚞𝚛𝚌𝚎💠", url=f"https://github.com/HyperAD/Dev-XRobot"),
+        InlineKeyboardButton(text="𝚂𝚘𝚞𝚛𝚌𝚎💠", url=f"https://github.com/Dhruvxbhudev2/YoneRobot"),
         InlineKeyboardButton(
             text="√𝙱𝚘𝚝 𝚂𝚞𝚙𝚙𝚘𝚛𝚝⚡⚜️", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝙲𝚑𝚊𝚝𝚝𝚒𝚗𝚐 𝚐𝚛𝚘𝚞𝚙😗 ☑", url=f"https://t.me/kritismile1"),
+        InlineKeyboardButton(text="𝙲𝚑𝚊𝚝𝚝𝚒𝚗𝚐 𝚐𝚛𝚘𝚞𝚙😗 ☑", url=f"https://t.me/yarokiyari_official"),
         InlineKeyboardButton(
-            text="•⏤͟͟͞͞★εʀᴀ-✘ꗄ➺「⁣🇮", url=f"https://t.me/EraaX_Robot"
+            text="My peru sarr ", url=f"https://t.me/versio_n_02"
         ),
     ],
     [
@@ -106,11 +106,11 @@ HELP_STRINGS = """
 `𝚈𝙾𝚄 𝙲𝙰𝙽 𝙲𝙷𝙾𝙾𝚂𝙴 𝙰𝙽 𝙾𝙿𝚃𝙸𝙾𝙽 𝙱𝙴𝙻𝙾𝚆, 𝙱𝚈 𝙲𝙻𝙸𝙲𝙺𝙸𝙽𝙶 𝙰 𝙱𝚄𝚃𝚃𝙾𝙽 𝚂𝙰𝙰𝚁 ✌️✌️..`
 𝙰𝙻𝚂𝙾 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝚂𝙺 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ❤️❤️🙈 [❤️](https://telegra.ph/file/6c66c67c6aeac89e3a487.jpg)"""
 
-START_IMG = "https://telegra.ph/file/356a4db58e0a43d67dc85.mp4"
+START_IMG = "https://te.legra.ph/file/bdf25ef6ecd2f3010f79a.jpg"
 
 DONATE_STRING = """𝙷𝚎𝚢𝚊, 𝚐𝚕𝚊𝚍 𝚝𝚘 𝚑𝚎𝚊𝚛 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚍𝚘𝚗𝚊𝚝𝚎💞!
- 𝚈𝚘𝚞 𝚌𝚊𝚗 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝🥲 [𝚃𝙷𝙽 𝙱𝙾𝚃𝚂](t.me/THN_BOTS_SUPPORT) \
- 𝚂𝚞𝚙𝚙𝚘𝚛𝚝𝚒𝚗𝚐 𝚒𝚜𝚗𝚝 𝚊𝚕𝚠𝚊𝚢𝚜 𝚏𝚒𝚗𝚊𝚗𝚌𝚒𝚊𝚕😁💖! [ 𝙽𝚎𝚝𝚠𝚘𝚛𝚔](https://t.me/THN_NETWORK) \
+ 𝚈𝚘𝚞 𝚌𝚊𝚗 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝🥲 [Owner to here🤧](https://t.me/ravnbot_supportchat) \
+ 𝚂𝚞𝚙𝚙𝚘𝚛𝚝𝚒𝚗𝚐 𝚒𝚜𝚗𝚝 𝚊𝚕𝚠𝚊𝚢𝚜 𝚏𝚒𝚗𝚊𝚗𝚌𝚒𝚊𝚕😁💖! [ 𝙽𝚎𝚝𝚠𝚘𝚛𝚔](https://t.me/bhudev_army_network) \
  𝚃𝚑𝚘𝚜𝚎 𝚠𝚑𝚘 𝚌𝚊𝚗𝚗𝚘𝚝 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚗𝚎𝚝𝚊𝚛𝚢 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚊𝚛𝚎 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚞𝚜 𝚍𝚎𝚟𝚎𝚕𝚘𝚙 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚊𝚝💖 ."""
 
 IMPORTED = {}
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code>°⚡𝗗𝗲𝘃ꗄ➺✘「🇮🇳」 𝚒𝚜 𝙷𝚎𝚛𝚎 𝙵𝚘𝚛 𝚈𝚘𝚞 🎀 𝙸 𝚊𝚖 𝙰𝚠𝚊𝚔𝚎 𝚂𝚊𝚊𝚛⚡°•️•°:🚀𝚜𝚒𝚗𝚌𝚎🤨🚀:</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code>°꧁☠︎ ︻╦̵̵͇ ╤─Rⱥvⱥή♛ ☠︎꧂「🇮🇳」 𝚒𝚜 𝙷𝚎𝚛𝚎 𝙵𝚘𝚛 𝚈𝚘𝚞 🎀 𝙸 𝚊𝚖 𝙰𝚠𝚊𝚔𝚎 𝚂𝚊𝚊𝚛⚡°•️•°:🚀𝚜𝚒𝚗𝚌𝚎🤨🚀:</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -359,7 +359,7 @@ def devx_about_callback(update, context):
     query = update.callback_query
     if query.data == "devx_":
         query.message.edit_text(
-            text=""" ℹ️️ I am [𝗗𝗲𝘃ꗄ➺✘「🇮🇳」](t.me/DevX_Robot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️️ I am [꧁☠︎ ︻╦ ╤─Rⱥvⱥή♛ ☠︎꧂「🇮🇳」](t.me/ravan_the_grp_managerbot), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -368,7 +368,7 @@ def devx_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_DEVX's licensed under the GNU General Public License v3.0_
                  \n❍ Assistant NOT AVAILABELE RIGHT NOW SOON.
-                 \nHere is the [💞Repository](https://github.com/HyperAD/Dev-XRobot).
+                 \nHere is the [💞Repository](https://github.com/Dhruvxbhudev2/YoneRobot).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -380,7 +380,7 @@ def devx_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "devx_back":
+    elif query.data == "Ravan_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -395,8 +395,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I am [𝗗𝗲𝘃ꗄ➺✘「🇮🇳」]](t.me/DevX_Robot)
-                 \nHere is the [Source Code](https://github.com/HyperAD/Dev-XRobot) .""",
+            text=""" Hi..🤗 I am [꧁☠︎ ︻╦̵̵͇ ╤─Rⱥvⱥή♛ ☠︎꧂「👿」]](t.me/ravan_the_grp_managerbot)
+                 \nHere is the [Source Code](https://github.com/Dhruvxbhudev2/YoneRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -691,7 +691,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝙽𝚘𝚠 𝙸 𝙰𝚖 𝙰𝚕𝚒𝚋𝚎 𝚂𝚊𝚊𝚛 🚀")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Zinda Hu 👿")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
