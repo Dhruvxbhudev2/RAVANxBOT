@@ -104,7 +104,7 @@ buttons = [
 
 HELP_STRINGS = """
 `𝚈𝙾𝚄 𝙲𝙰𝙽 𝙲𝙷𝙾𝙾𝚂𝙴 𝙰𝙽 𝙾𝙿𝚃𝙸𝙾𝙽 𝙱𝙴𝙻𝙾𝚆, 𝙱𝚈 𝙲𝙻𝙸𝙲𝙺𝙸𝙽𝙶 𝙰 𝙱𝚄𝚃𝚃𝙾𝙽 𝚂𝙰𝙰𝚁 ✌️✌️..`
-𝙰𝙻𝚂𝙾 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝚂𝙺 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ❤️❤️🙈 [❤️](https://telegra.ph/file/6c66c67c6aeac89e3a487.jpg)"""
+𝙰𝙻𝚂𝙾 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝚂𝙺 𝙰𝙽𝚈𝚃𝙷𝙸𝙽𝙶 𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ❤️❤️🙈 [❤️](https://te.legra.ph/file/bdf25ef6ecd2f3010f79a.jpg)"""
 
 START_IMG = "https://te.legra.ph/file/bdf25ef6ecd2f3010f79a.jpg"
 
