@@ -98,7 +98,6 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="💠𝙷𝙴𝙻𝙿💠", callback_data="help_back"),
-        InlineKeyboardButton(text="🌟𝚂𝙾𝚄𝚁𝙲𝙴🌟", url=f"https://github.com/HyperAD/Dev-XRobot"),
     ],
 ]
 
