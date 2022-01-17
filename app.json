@@ -1,7 +1,7 @@
 {
-      "name": "𝗗𝗲𝘃ꗄ➺✘「🇮🇳」Robot",
+      "name": "🆁🅰🆅🅰🅽 🅱🅾🆃「🇮🇳」Probot",
       "description": "Powerfull Telegram group management bot.",
-      "logo": "https://telegra.ph/file/ce70ac7eb7c285fa019a9.jpg",
+      "logo": "Uploaded to https://telegra.ph/file/fb0ec78712bc53ebacddd.jpg)",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "DevX"
       ],   
-   "repository": "https://github.com/HyperAD/Dev-XRobot",
+   "repository": "https://github.com/Dhruvxbhudev2/RAVANxBOT",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1996039846"
+         "value": "1996855510"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
