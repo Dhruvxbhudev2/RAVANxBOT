@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from DevXRobot import LOGGER
-from DevXRobot.modules.users import get_user_id
+from RAVANxBOT import LOGGER
+from RAVANxBOT.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
