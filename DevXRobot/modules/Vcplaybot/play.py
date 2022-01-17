@@ -11,11 +11,11 @@ import requests
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
-from KennedyMusic.cache.admins import admins as a
-from KennedyMusic.callsmusic import callsmusic
-from KennedyMusic.callsmusic.callsmusic import client as USER
-from KennedyMusic.callsmusic.queues import queues
-from KennedyMusic.config import (
+from DevXRobot.cache.admins import admins as a
+from DevXRobot.callsmusic import callsmusic
+from DevXRobot.callsmusic.callsmusic import client as USER
+from DevXRobot.callsmusic.queues import queues
+from DevXRobot.config import (
     ASSISTANT_NAME,
     BOT_NAME,
     BOT_USERNAME,
