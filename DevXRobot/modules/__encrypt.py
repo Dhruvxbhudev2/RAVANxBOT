@@ -1,6 +1,6 @@
-from DevXRobot import telethn as tbot
+from RAVANxBOT import telethn as tbot
 import os
-from DevXRobot.events import register
+from RAVANxBOT.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")
