@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from DevXRobot.modules.helper_funcs.msg_types import Types
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.helper_funcs.msg_types import Types
+from RAVANxBOT.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
