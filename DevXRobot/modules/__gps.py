@@ -1,8 +1,8 @@
 import os
-from DevXRobot import telethn as tbot
+from RAVANxBOT import telethn as tbot
 from geopy.geocoders import Nominatim
-from DevXRobot.events import register
-from DevXRobot import *
+from RAVANxBOT.events import register
+from RAVANxBOT import *
 from telethon import *
 from telethon.tl import *
 
