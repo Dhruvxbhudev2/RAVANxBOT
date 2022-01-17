@@ -3,12 +3,12 @@ import re
 import os
 import html
 import requests
-import DevXRobot.modules.sql.kuki_sql as sql
+import RAVANxBOT.modules.sql.kuki_sql as sql
 
 from time import sleep
 from telegram import ParseMode
-from DevXRobot import dispatcher, updater, SUPPORT_CHAT
-from DevXRobot.modules.log_channel import gloggable
+from RAVANxBOT import dispatcher, updater, SUPPORT_CHAT
+from RAVANxBOT.modules.log_channel import gloggable
 from telegram import (CallbackQuery, Chat, MessageEntity, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, Bot, User)
 
@@ -18,8 +18,8 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 
-from DevXRobot.modules.helper_funcs.filters import CustomFilters
-from DevXRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from RAVANxBOT.modules.helper_funcs.filters import CustomFilters
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
