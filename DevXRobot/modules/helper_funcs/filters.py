@@ -1,4 +1,4 @@
-from DevXRobot import DEV_USERS, DRAGONS, DEMONS
+from RAVANxBOT import DEV_USERS, DRAGONS, DEMONS
 from telegram import Message
 from telegram.ext import BaseFilter
 
