@@ -5,7 +5,7 @@ from asyncio.queues import QueueEmpty
 
 import aiofiles
 import aiohttp
-from KennedyMusic.converter.converter import convert
+from DevXRobot.converter.converter import convert
 import ffmpeg
 import requests
 from pytgcalls import StreamType
@@ -25,13 +25,13 @@ from KennedyMusic.config import (
     UPDATES_CHANNEL,
     que,
 )
-from KennedyMusic.downloaders.youtube import download
-from KennedyMusic.helpers.admins import get_administrators
-from KennedyMusic.helpers.channelmusic import get_chat_id
-from KennedyMusic.helpers.chattitle import CHAT_TITLE
-from KennedyMusic.helpers.decorators import authorized_users_only
-from KennedyMusic.helpers.filters import command, other_filters
-from KennedyMusic.helpers.gets import get_url, get_file_name
+from DevXRobot.downloaders.youtube import download
+from DevXRobot.helpers.admins import get_administrators
+from DevXRobot.helpers.channelmusic import get_chat_id
+from DevXRobot.helpers.chattitle import CHAT_TITLE
+from DevXRobot.helpers.decorators import authorized_users_only
+from DevXRobot.helpers.filters import command, other_filters
+from DevXRobot.helpers.gets import get_url, get_file_name
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
@@ -50,7 +50,7 @@ def cb_admin_check(func: Callable) -> Callable:
         if cb.from_user.id in admemes:
             return await func(client, cb)
         else:
-            await cb.answer("💡 only admin can tap this button !", show_alert=True)
+            await cb.answer("☠ only admin can tap this button !", show_alert=True)
             return
 
     return decorator
