@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from DevXRobot import telethn as tbot
+from RAVANxBOT import telethn as tbot
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))
@@ -52,7 +52,7 @@ async def _(event):
         await tbot.send_file(
             event.chat_id,
             "book.txt",
-            caption="**𝙱𝙾𝙾𝙺𝚂 𝙶𝙰𝚃𝙷𝙴𝚁𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈🥳🥳!\n\n𝙱𝚈 @EraaX_Robot. 𝙹𝙾𝙸𝙽 𝚃𝙷𝙴 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 @THN_BOTS_SUPPORT.**",
+            caption="**𝙱𝙾𝙾𝙺𝚂 𝙶𝙰𝚃𝙷𝙴𝚁𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈🥳🥳!**",
         )
         os.remove("book.txt")
         await KkK.delete()
