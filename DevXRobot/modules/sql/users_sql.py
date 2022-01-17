@@ -1,7 +1,7 @@
 import threading
 
-from DevXRobot import dispatcher
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.sql import BASE, SESSION
 from sqlalchemy import (
     Column,
     ForeignKey,
