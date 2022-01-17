@@ -1,6 +1,6 @@
-import DevXRobot.modules.sql.blacklistusers_sql as sql
-from DevXRobot import ALLOW_EXCL
-from DevXRobot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import RAVANxBOT.modules.sql.blacklistusers_sql as sql
+from RAVANxBOT import ALLOW_EXCL
+from RAVANxBOT import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
