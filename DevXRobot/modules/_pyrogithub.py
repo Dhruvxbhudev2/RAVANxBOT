@@ -1,8 +1,8 @@
 # © @Mr_Dark_Prince
 import aiohttp
 from pyrogram import filters
-from DevXRobot import pbot
-from DevXRobot.pyrogramee.errors import capture_err
+from RAVANxBOT import pbot
+from RAVANxBOT.pyrogramee.errors import capture_err
 
 
 __mod_name__ = "Github"
