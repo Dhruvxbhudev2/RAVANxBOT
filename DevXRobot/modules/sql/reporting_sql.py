@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String
 
 
