@@ -13,7 +13,7 @@
 
 from sqlalchemy import Column, String
 
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.sql import BASE, SESSION
 
 
 class Nsfwatch(BASE):
