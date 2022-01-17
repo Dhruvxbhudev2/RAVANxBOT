@@ -6,8 +6,8 @@ import requests
 import wget
 from pyrogram import filters
 
-from DevXRobot import pbot as zaid
-from DevXRobot.pyrogramee.dark import get_arg
+from RAVANxBOT import pbot as zaid
+from RAVANxBOT.pyrogramee.dark import get_arg
 
 
 @zaid.on_message(filters.command("saavn"))
