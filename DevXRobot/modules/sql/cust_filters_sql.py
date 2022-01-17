@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from DevXRobot.modules.helper_funcs.msg_types import Types
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.helper_funcs.msg_types import Types
+from RAVANxBOT.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
