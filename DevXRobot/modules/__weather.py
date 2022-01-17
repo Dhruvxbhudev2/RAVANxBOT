@@ -1,4 +1,4 @@
-from DevXRobot import telethn as tbot
+from RAVANxBOT import telethn as tbot
 import io
 import os
 import time
