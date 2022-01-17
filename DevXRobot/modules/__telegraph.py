@@ -1,5 +1,5 @@
-from DevXRobot.events import register
-from DevXRobot import telethn as tbot
+from RAVANxBOT.events import register
+from RAVANxBOT import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
