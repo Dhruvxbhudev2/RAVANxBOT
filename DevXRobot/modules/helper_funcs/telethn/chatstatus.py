@@ -1,5 +1,5 @@
-from DevXRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from DevXRobot import DRAGONS
+from RAVANxBOT.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from RAVANxBOT import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
