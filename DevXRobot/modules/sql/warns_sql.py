@@ -1,6 +1,6 @@
 import threading
 
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 from sqlalchemy.dialects import postgresql
 
