@@ -1,4 +1,4 @@
-from DevXRobot.mongo import client as db_x
+from RAVANxBOT.mongo import client as db_x
 
 lydia = db_x["CAHTBOT"]
 
