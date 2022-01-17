@@ -4,9 +4,9 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DevXRobot import arq
-from DevXRobot.pyrogramee.errors import capture_err
-from DevXRobot import pbot as app
+from RAVANxBOT import arq
+from RAVANxBOT.pyrogramee.errors import capture_err
+from RAVANxBOT import pbot as app
 
 
 
