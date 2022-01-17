@@ -5,8 +5,8 @@ import os
 import heroku3
 import requests
 
-from DevXRobot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
-from DevXRobot.events import register
+from RAVANxBOT import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
+from RAVANxBOT.events import register
 
 heroku_api = "https://api.heroku.com"
 Heroku = heroku3.from_key(HEROKU_API_KEY)
