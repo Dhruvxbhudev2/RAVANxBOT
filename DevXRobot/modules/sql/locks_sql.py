@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from DevXRobot.modules.sql import SESSION, BASE
+from RAVANxBOT.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
