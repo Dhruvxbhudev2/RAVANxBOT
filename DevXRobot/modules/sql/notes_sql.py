@@ -1,8 +1,8 @@
 # Note: chat_id's are stored as strings because the int is too large to be stored in a PSQL database.
 import threading
 
-from DevXRobot.modules.helper_funcs.msg_types import Types
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.helper_funcs.msg_types import Types
+from RAVANxBOT.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
 
