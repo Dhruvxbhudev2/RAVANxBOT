@@ -1,4 +1,4 @@
 @echo off
-TITLE DevX Robot
+TITLE RAVANxBOT
 :: Enables virtual env mode and then starts Rika
-env\scripts\activate.bat && py -m DevXRobot
+env\scripts\activate.bat && py -m RAVANxBOT
