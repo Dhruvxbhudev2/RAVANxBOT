@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Numeric, Boolean
-from DevXRobot.modules.sql import BASE, SESSION
+from RAVANxBOT.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):
