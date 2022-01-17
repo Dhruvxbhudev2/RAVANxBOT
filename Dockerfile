@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/DevXRobot
-RUN git clone -b shiken https://github.com/HyperAD/Dev-XRobot /root/DevXRobot
+# Copy Python Requirements to /root/RAVANxBOT
+RUN git clone -b shiken https://github.com/Dhruvxbhudev2 /root/RAVANxBOT
 WORKDIR /root/DevXRobot
 
-#Copy config file to /root/DevXRobot/DevXRobot
-COPY ./DevXRobot/sample_config.py ./DevXRobot/config.py* /root/DevXRobot/DevXRobot/
+#Copy config file to /root/RAVANxBOT/RAVANxBOT
+COPY ./DevXRobot/sample_config.py ./RAVANxBOT/config.py* /root/RAVANxBOT/RAVANxBOT/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","DevXRobot"]
+CMD ["python3","-m","RAVANxBOT"]
