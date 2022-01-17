@@ -44,7 +44,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from DevXRobot import pbot as zaid
+from RAVANxBOT import pbot as zaid
 
 ARQ = "https://thearq.tech/"
 
