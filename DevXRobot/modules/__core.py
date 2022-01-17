@@ -1,13 +1,13 @@
-from DevXRobot import telethn as tbot
-from DevXRobot.events import register
+from RAVANxBOT import telethn as tbot
+from RAVANxBOT.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from DevXRobot import OWNER_ID, DEV_USERS
-from DevXRobot import TEMP_DOWNLOAD_DIRECTORY as path
-from DevXRobot import TEMP_DOWNLOAD_DIRECTORY
+from RAVANxBOT import OWNER_ID, DEV_USERS
+from RAVANxBOT import TEMP_DOWNLOAD_DIRECTORY as path
+from RAVANxBOT import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
 water = './DevXRobot/resources/yone.jpg'
 client = tbot
