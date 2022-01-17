@@ -1,4 +1,4 @@
-__mod_name__ = "DevX Player"
+__mod_name__ = "RAVAN Player"
 
 __help__ = """
 =>> *Song Playing* 🎧 
