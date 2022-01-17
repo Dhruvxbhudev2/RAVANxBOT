@@ -23,10 +23,10 @@ SOFTWARE.
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
-from KennedyMusic.callsmusic.callsmusic import client as USER
-from KennedyMusic.config import BOT_USERNAME, SUDO_USERS
-from KennedyMusic.helpers.decorators import authorized_users_only, errors
-from KennedyMusic.helpers.filters import command
+from DevXRobot.callsmusic.callsmusic import client as USER
+from DevXRobot.config import BOT_USERNAME, SUDO_USERS
+from DevXRobot.helpers.decorators import authorized_users_only, errors
+from DevXRobot.helpers.filters import command
 
 
 @Client.on_message(command(["userbotjoin", f"userbotjoin@{BOT_USERNAME}"]) & ~filters.private & ~filters.bot)
