@@ -98,7 +98,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from DevXRobot import pbot as ASUNA
+from RAVANxBOT import pbot as ASUNA
 
 ARQ = "https://thearq.tech/"
 
