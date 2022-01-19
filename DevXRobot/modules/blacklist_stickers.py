@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import DevXRobot.modules.sql.blsticker_sql as sql
-from DevXRobot import LOGGER, dispatcher
-from DevXRobot.modules.connection import connected
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.alternate import send_message
-from DevXRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DevXRobot.modules.helper_funcs.misc import split_message
-from DevXRobot.modules.helper_funcs.string_handling import extract_time
+import RAVANxBOT.modules.sql.blsticker_sql as sql
+from RAVANxBOT import LOGGER, dispatcher
+from RAVANxBOT.modules.connection import connected
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.alternate import send_message
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from RAVANxBOT.modules.helper_funcs.misc import split_message
+from RAVANxBOT.modules.helper_funcs.string_handling import extract_time
 
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.warns import warn
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
