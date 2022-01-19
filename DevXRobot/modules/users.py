@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import DevXRobot.modules.sql.users_sql as sql
-from DevXRobot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from DevXRobot.modules.sql.users_sql import get_all_users
+import RAVANxBOT.modules.sql.users_sql as sql
+from RAVANxBOT import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from RAVANxBOT.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
