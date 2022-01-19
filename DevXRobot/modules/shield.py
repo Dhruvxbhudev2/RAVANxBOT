@@ -12,15 +12,15 @@ from telethon import events
 from telethon.tl.types import ChatBannedRights
 from pymongo import MongoClient
 
-from DevXRobot.utils.pluginhelpers import is_admin
-from DevXRobot.events import register
-from DevXRobot.modules.sql.nsfw_watch_sql import (
+from RAVANxBOT.utils.pluginhelpers import is_admin
+from RAVANxBOT.events import register
+from RAVANxBOT.modules.sql.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from DevXRobot import telethn, MONGO_DB_URI, BOT_ID
+from RAVANxBOT import telethn, MONGO_DB_URI, BOT_ID
 
 trans = SyncTranslator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
