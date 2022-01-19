@@ -4,15 +4,15 @@ import re
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from DevXRobot import TIGERS, WOLVES, dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import (
+from RAVANxBOT import TIGERS, WOLVES, dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.sql import antiflood_sql as sql
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from DevXRobot.modules.helper_funcs.string_handling import extract_time
-from DevXRobot.modules.connection import connected
-from DevXRobot.modules.helper_funcs.alternate import send_message
-from DevXRobot.modules.sql.approve_sql import is_approved
+from RAVANxBOT.modules.helper_funcs.string_handling import extract_time
+from RAVANxBOT.modules.connection import connected
+from RAVANxBOT.modules.helper_funcs.alternate import send_message
+from RAVANxBOT.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
