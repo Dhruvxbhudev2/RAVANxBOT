@@ -5,9 +5,9 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from DevXRobot import DRAGONS, dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.chat_status import (
+from RAVANxBOT import DRAGONS, dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     bot_admin,
     can_pin,
     can_promote,
@@ -21,13 +21,13 @@ from DevXRobot.helper_extra.admin_rights import (
     user_can_changeinfo,
 )
 
-from DevXRobot.modules.helper_funcs.extraction import (
+from RAVANxBOT.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.helper_funcs.alternate import send_message
-from DevXRobot.modules.helper_funcs.alternate import typing_action
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.helper_funcs.alternate import send_message
+from RAVANxBOT.modules.helper_funcs.alternate import typing_action
 
 
 @run_async
