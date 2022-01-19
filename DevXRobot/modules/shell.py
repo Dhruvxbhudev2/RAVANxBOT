@@ -1,7 +1,7 @@
 import subprocess
 
-from DevXRobot import LOGGER, dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus
+from RAVANxBOT import LOGGER, dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.ext.dispatcher import run_async
