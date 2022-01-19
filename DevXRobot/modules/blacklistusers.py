@@ -1,7 +1,7 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import DevXRobot.modules.sql.blacklistusers_sql as sql
-from DevXRobot import (
+import RAVANxBOT.modules.sql.blacklistusers_sql as sql
+from RAVANxBOT import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -10,12 +10,12 @@ from DevXRobot import (
     WOLVES,
     dispatcher,
 )
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus
-from DevXRobot.modules.helper_funcs.extraction import (
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus
+from RAVANxBOT.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from DevXRobot.modules.log_channel import gloggable
+from RAVANxBOT.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
