@@ -5,8 +5,8 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import DevXRobot.modules.sql.welcome_sql as sql
-import DevXRobot
+import RAVANxBOT.modules.sql.welcome_sql as sql
+import RAVANxBOT
 from DevXRobot import (
     DEV_USERS,
     LOGGER,
@@ -19,18 +19,18 @@ from DevXRobot import (
     dispatcher,
     JOIN_LOGGER
 )
-from DevXRobot.modules.helper_funcs.chat_status import (
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from DevXRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from DevXRobot.modules.helper_funcs.msg_types import get_welcome_type
-from DevXRobot.modules.helper_funcs.string_handling import (
+from RAVANxBOT.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from RAVANxBOT.modules.helper_funcs.msg_types import get_welcome_type
+from RAVANxBOT.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.sql.global_bans_sql import is_user_gbanned
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
