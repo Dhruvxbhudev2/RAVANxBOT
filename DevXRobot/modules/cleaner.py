@@ -1,15 +1,15 @@
 
 import html
 
-from DevXRobot import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.chat_status import (
+from RAVANxBOT import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from DevXRobot.modules.sql import cleaner_sql as sql
+from RAVANxBOT.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
