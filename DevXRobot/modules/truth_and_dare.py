@@ -1,9 +1,9 @@
 import html
 import random
-import DevXRobot.modules.truth_and_dare_string as truth_and_dare_string
-from DevXRobot import dispatcher
+import RAVANxBOT.modules.truth_and_dare_string as truth_and_dare_string
+from RAVANxBOT import dispatcher
 from telegram import ParseMode, Update, Bot
-from DevXRobot.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 @run_async
