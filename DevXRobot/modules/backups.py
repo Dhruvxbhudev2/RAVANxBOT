@@ -5,22 +5,22 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import DevXRobot.modules.sql.notes_sql as sql
-from DevXRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from DevXRobot.__main__ import DATA_IMPORT
-from DevXRobot.modules.helper_funcs.chat_status import user_admin
-from DevXRobot.modules.helper_funcs.alternate import typing_action
+import RAVANxBOT.modules.sql.notes_sql as sql
+from RAVANxBOT import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from RAVANxBOT.__main__ import DATA_IMPORT
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
+from RAVANxBOT.modules.helper_funcs.alternate import typing_action
 
-# from DevXRobot.modules.rules import get_rules
-import DevXRobot.modules.sql.rules_sql as rulessql
+# from RAVANxBOT.modules.rules import get_rules
+import RAVANxBOT.modules.sql.rules_sql as rulessql
 
-# from DevXRobot.modules.sql import warns_sql as warnssql
-import DevXRobot.modules.sql.blacklist_sql as blacklistsql
-from DevXRobot.modules.sql import disable_sql as disabledsql
+# from RAVANxBOT.modules.sql import warns_sql as warnssql
+import RAVANxBOT.modules.sql.blacklist_sql as blacklistsql
+from RAVANxBOT.modules.sql import disable_sql as disabledsql
 
-# from DevXRobot.modules.sql import cust_filters_sql as filtersql
-# import DevXRobot.modules.sql.welcome_sql as welcsql
-import DevXRobot.modules.sql.locks_sql as locksql
+# from RAVANxBOT.modules.sql import cust_filters_sql as filtersql
+# import RAVANxBOT.modules.sql.welcome_sql as welcsql
+import RAVANxBOT.modules.sql.locks_sql as locksql
 from DevXRobot.modules.connection import connected
 
 
