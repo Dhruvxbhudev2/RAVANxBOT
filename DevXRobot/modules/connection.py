@@ -5,10 +5,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-import DevXRobot.modules.sql.connection_sql as sql
-from DevXRobot import dispatcher, DRAGONS, DEV_USERS
-from DevXRobot.modules.helper_funcs import chat_status
-from DevXRobot.modules.helper_funcs.alternate import send_message, typing_action
+import RAVANxBOT.modules.sql.connection_sql as sql
+from RAVANxBOT import dispatcher, DRAGONS, DEV_USERS
+from RAVANxBOT.modules.helper_funcs import chat_status
+from RAVANxBOT.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
