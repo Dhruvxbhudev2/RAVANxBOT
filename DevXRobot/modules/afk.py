@@ -1,12 +1,12 @@
 import random, html
 
-from DevXRobot import dispatcher
-from DevXRobot.modules.disable import (
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from DevXRobot.modules.sql import afk_sql as sql
-from DevXRobot.modules.users import get_user_id
+from RAVANxBOT.modules.sql import afk_sql as sql
+from RAVANxBOT.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
