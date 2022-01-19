@@ -1,11 +1,11 @@
 import html
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot import dispatcher, DRAGONS
-from DevXRobot.modules.helper_funcs.extraction import extract_user
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT import dispatcher, DRAGONS
+from RAVANxBOT.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, CallbackQueryHandler, Filters, run_async
-import DevXRobot.modules.sql.approve_sql as sql
-from DevXRobot.modules.helper_funcs.chat_status import user_admin
-from DevXRobot.modules.log_channel import loggable
+import RAVANxBOT.modules.sql.approve_sql as sql
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
+from RAVANxBOT.modules.log_channel import loggable
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
