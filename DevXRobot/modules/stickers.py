@@ -14,10 +14,10 @@ from telegram import TelegramError, Update
 from telegram.ext import run_async, CallbackContext
 from telegram.utils.helpers import mention_html
 
-from DevXRobot import dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.events import register as Cutiepii
-from DevXRobot import telethn as bot
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.events import register as Cutiepii
+from RAVANxBOT import telethn as bot
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
