@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from DevXRobot import dispatcher, LOGGER, DRAGONS
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from DevXRobot.modules.helper_funcs.chat_status import user_admin
-from DevXRobot.modules.helper_funcs.extraction import extract_text
-from DevXRobot.modules.helper_funcs.filters import CustomFilters
-from DevXRobot.modules.helper_funcs.misc import build_keyboard_parser
-from DevXRobot.modules.helper_funcs.msg_types import get_filter_type
-from DevXRobot.modules.helper_funcs.string_handling import (
+from RAVANxBOT import dispatcher, LOGGER, DRAGONS
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.handlers import MessageHandlerChecker
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
+from RAVANxBOT.modules.helper_funcs.extraction import extract_text
+from RAVANxBOT.modules.helper_funcs.filters import CustomFilters
+from RAVANxBOT.modules.helper_funcs.misc import build_keyboard_parser
+from RAVANxBOT.modules.helper_funcs.msg_types import get_filter_type
+from RAVANxBOT.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from DevXRobot.modules.sql import cust_filters_sql as sql
+from RAVANxBOT.modules.sql import cust_filters_sql as sql
 
-from DevXRobot.modules.connection import connected
+from RAVANxBOT.modules.connection import connected
 
-from DevXRobot.modules.helper_funcs.alternate import send_message, typing_action
+from RAVANxBOT.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
