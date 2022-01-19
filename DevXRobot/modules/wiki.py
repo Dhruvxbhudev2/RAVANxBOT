@@ -1,6 +1,6 @@
 import wikipedia
-from DevXRobot import dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 from wikipedia.exceptions import DisambiguationError, PageError
