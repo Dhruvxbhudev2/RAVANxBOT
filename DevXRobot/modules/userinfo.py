@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from DevXRobot import (
+from RAVANxBOT import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from DevXRobot import (
     dispatcher,
     sw,
 )
-from DevXRobot.__main__ import STATS, TOKEN, USER_INFO
-import DevXRobot.modules.sql.userinfo_sql as sql
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.sql.global_bans_sql import is_user_gbanned
-from DevXRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from DevXRobot.modules.sql.users_sql import get_user_num_chats
-from DevXRobot.modules.helper_funcs.chat_status import sudo_plus
-from DevXRobot.modules.helper_funcs.extraction import extract_user
-from DevXRobot import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
+from RAVANxBOT.__main__ import STATS, TOKEN, USER_INFO
+import RAVANxBOT.modules.sql.userinfo_sql as sql
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.sql.global_bans_sql import is_user_gbanned
+from RAVANxBOT.modules.sql.afk_sql import is_afk, check_afk_status
+from RAVANxBOT.modules.sql.users_sql import get_user_num_chats
+from RAVANxBOT.modules.helper_funcs.chat_status import sudo_plus
+from RAVANxBOT.modules.helper_funcs.extraction import extract_user
+from RAVANxBOT import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
