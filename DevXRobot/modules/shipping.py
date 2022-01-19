@@ -1,5 +1,5 @@
-from DevXRobot import pbot as app
-from DevXRobot.utils.dbfunc import get_couple, save_couple
+from RAVANxBOT import pbot as app
+from RAVANxBOT.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
 import random
 from datetime import datetime
