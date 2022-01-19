@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from DevXRobot import TIGERS, WOLVES, dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.chat_status import (
+from RAVANxBOT import TIGERS, WOLVES, dispatcher
+from @RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -14,16 +14,16 @@ from DevXRobot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     can_delete,
 )
-from DevXRobot.modules.helper_funcs.extraction import (
+from RAVANxBOT.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from DevXRobot.modules.helper_funcs.filters import CustomFilters
-from DevXRobot.modules.helper_funcs.misc import split_message
-from DevXRobot.modules.helper_funcs.string_handling import split_quotes
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.sql import warns_sql as sql
+from RAVANxBOT.modules.helper_funcs.filters import CustomFilters
+from RAVANxBOT.modules.helper_funcs.misc import split_message
+from RAVANxBOT.modules.helper_funcs.string_handling import split_quotes
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
     Chat,
