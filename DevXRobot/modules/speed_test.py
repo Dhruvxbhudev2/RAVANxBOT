@@ -1,7 +1,7 @@
 import speedtest
-from DevXRobot import DEV_USERS, dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus
+from RAVANxBOT import DEV_USERS, dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
