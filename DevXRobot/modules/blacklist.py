@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import DevXRobot.modules.sql.blacklist_sql as sql
-from DevXRobot import dispatcher, LOGGER
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DevXRobot.modules.helper_funcs.extraction import extract_text
-from DevXRobot.modules.helper_funcs.misc import split_message
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.warns import warn
-from DevXRobot.modules.helper_funcs.string_handling import extract_time
-from DevXRobot.modules.connection import connected
-from DevXRobot.modules.sql.approve_sql import is_approved
-from DevXRobot.modules.helper_funcs.alternate import send_message, typing_action
+import RAVANxBOT.modules.sql.blacklist_sql as sql
+from RAVANxBOT import dispatcher, LOGGER
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from RAVANxBOT.modules.helper_funcs.extraction import extract_text
+from RAVANxBOT.modules.helper_funcs.misc import split_message
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.warns import warn
+from RAVANxBOT.modules.helper_funcs.string_handling import extract_time
+from RAVANxBOT.modules.connection import connected
+from RAVANxBOT.modules.sql.approve_sql import is_approved
+from RAVANxBOT.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
