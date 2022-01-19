@@ -4,7 +4,7 @@ from typing import Optional
 
 import telegram
 from RAVANxBOT import TIGERS, WOLVES, dispatcher
-from @RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
 from RAVANxBOT.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
