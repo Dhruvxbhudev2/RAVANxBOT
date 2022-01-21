@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import DevXRobot.modules.sql.locks_sql as sql
-from DevXRobot import dispatcher, DRAGONS, LOGGER
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.chat_status import (
+import RAVANxBOT.modules.sql.locks_sql as sql
+from RAVANxBOT import dispatcher, DRAGONS, LOGGER
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.connection import connected
-from DevXRobot.modules.sql.approve_sql import is_approved
-from DevXRobot.modules.helper_funcs.alternate import send_message, typing_action
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.connection import connected
+from RAVANxBOT.modules.sql.approve_sql import is_approved
+from RAVANxBOT.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
