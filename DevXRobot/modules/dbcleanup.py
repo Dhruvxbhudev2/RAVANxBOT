@@ -1,9 +1,9 @@
 from time import sleep
 
-import DevXRobot.modules.sql.global_bans_sql as gban_sql
-import DevXRobot.modules.sql.users_sql as user_sql
-from DevXRobot import DEV_USERS, OWNER_ID, dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus
+import RAVANxBOT.modules.sql.global_bans_sql as gban_sql
+import RAVANxBOT.modules.sql.users_sql as user_sql
+from RAVANxBOT import DEV_USERS, OWNER_ID, dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
