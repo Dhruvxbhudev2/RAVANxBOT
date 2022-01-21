@@ -2,8 +2,8 @@ import datetime
 from typing import List
 
 import requests
-from DevXRobot import TIME_API_KEY, dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT import TIME_API_KEY, dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
