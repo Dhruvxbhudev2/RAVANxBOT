@@ -1,9 +1,9 @@
 import html
 
-from DevXRobot import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DevXRobot.modules.log_channel import loggable
-from DevXRobot.modules.sql import reporting_sql as sql
+from RAVANxBOT import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from RAVANxBOT.modules.log_channel import loggable
+from RAVANxBOT.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
