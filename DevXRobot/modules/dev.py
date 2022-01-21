@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import DevXRobot
+import RAVANxBOT
 
-from DevXRobot import dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
