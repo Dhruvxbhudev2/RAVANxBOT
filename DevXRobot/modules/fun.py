@@ -2,18 +2,18 @@ import html
 import random
 import time
 
-import DevXRobot.modules.fun_strings as fun_strings
-from DevXRobot import dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
-from DevXRobot.modules.helper_funcs.chat_status import is_user_admin
-from DevXRobot.modules.helper_funcs.alternate import typing_action
-from DevXRobot.modules.helper_funcs.filters import CustomFilters
-from DevXRobot.modules.helper_funcs.extraction import extract_user
+import RAVANxBOT.modules.fun_strings as fun_strings
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from RAVANxBOT.modules.helper_funcs.chat_status import is_user_admin
+from RAVANxBOT.modules.helper_funcs.alternate import typing_action
+from RAVANxBOT.modules.helper_funcs.filters import CustomFilters
+from RAVANxBOT.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async, CommandHandler, Filters
 
-import DevXRobot.modules.helper_funcs.string_store as fun
+import RAVANxBOT.modules.helper_funcs.string_store as fun
 
 GIF_ID = "CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE"
 
