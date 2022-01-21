@@ -3,8 +3,8 @@ from telegram.ext import CallbackContext, run_async
 
 from gpytranslate import SyncTranslator
 
-from DevXRobot import dispatcher
-from DevXRobot.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
 
 
 trans = SyncTranslator()
