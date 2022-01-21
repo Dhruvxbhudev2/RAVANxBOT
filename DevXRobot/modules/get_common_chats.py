@@ -1,9 +1,9 @@
 import os
 from time import sleep
 
-from DevXRobot import OWNER_ID, dispatcher
-from DevXRobot.modules.helper_funcs.extraction import extract_user
-from DevXRobot.modules.sql.users_sql import get_user_com_chats
+from RAVANxBOT import OWNER_ID, dispatcher
+from RAVANxBOT.modules.helper_funcs.extraction import extract_user
+from RAVANxBOT.modules.sql.users_sql import get_user_com_chats
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, Filters
