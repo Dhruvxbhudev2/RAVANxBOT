@@ -1,4 +1,4 @@
-from DevXRobot.mongo import db
+from RAVANxBOT.mongo import db
 from typing import Dict, List, Union
 
 
