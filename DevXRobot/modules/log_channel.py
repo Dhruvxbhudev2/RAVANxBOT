@@ -3,7 +3,7 @@ from functools import wraps
 
 from telegram.ext import CallbackContext
 
-from DevXRobot.modules.helper_funcs.misc import is_module_loaded
+from RAVANxBOT.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -13,9 +13,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue, run_async
     from telegram.utils.helpers import escape_markdown
 
-    from DevXRobot import EVENT_LOGS, LOGGER, dispatcher
-    from DevXRobot.modules.helper_funcs.chat_status import user_admin
-    from DevXRobot.modules.sql import log_channel_sql as sql
+    from RAVANxBOT import EVENT_LOGS, LOGGER, dispatcher
+    from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
+    from RAVANxBOT.modules.sql import log_channel_sql as sql
 
     def loggable(func):
         @wraps(func)
