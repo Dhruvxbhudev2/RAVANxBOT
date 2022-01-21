@@ -6,8 +6,8 @@ import time
 import uuid
 from io import BytesIO
 
-import DevXRobot.modules.sql.feds_sql as sql
-from DevXRobot import (
+import RAVANxBOT.modules.sql.feds_sql as sql
+from RAVANxBOT import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -17,15 +17,15 @@ from DevXRobot import (
     WOLVES,
     dispatcher,
 )
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.alternate import send_message
-from DevXRobot.modules.helper_funcs.chat_status import is_user_admin
-from DevXRobot.modules.helper_funcs.extraction import (
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.alternate import send_message
+from RAVANxBOT.modules.helper_funcs.chat_status import is_user_admin
+from RAVANxBOT.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from DevXRobot.modules.helper_funcs.string_handling import markdown_parser
+from RAVANxBOT.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
