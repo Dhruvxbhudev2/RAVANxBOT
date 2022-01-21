@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import DevXRobot.modules.sql.notes_sql as sql
-from DevXRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from DevXRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from DevXRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from DevXRobot.modules.helper_funcs.msg_types import get_note_type
-from DevXRobot.modules.helper_funcs.string_handling import (
+import RAVANxBOT.modules.sql.notes_sql as sql
+from RAVANxBOT import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT.modules.helper_funcs.handlers import MessageHandlerChecker
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin, connection_status
+from RAVANxBOT.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from RAVANxBOT.modules.helper_funcs.msg_types import get_note_type
+from RAVANxBOT.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
