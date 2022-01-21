@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from DevXRobot import dispatcher, telethn
-from DevXRobot.__main__ import (
+from RAVANxBOT import dispatcher, telethn
+from RAVANxBOT.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from DevXRobot.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from DevXRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from RAVANxBOT.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
