@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from DevXRobot import StartTime, dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import sudo_plus
-from DevXRobot.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT import StartTime, dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import sudo_plus
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
@@ -80,7 +80,7 @@ def ping(update: Update, context: CallbackContext):
     uptime = get_readable_time((time.time() - StartTime))
 
     message.edit_text(
-        "꧁☠︎ ︻╦̵̵͇   ╤─Rⱥvⱥή♛ ☠︎꧂ /n Me Sota Nhi Hu SIR🤧"
+        "꧁☠︎ ︻╦̵̵͇   ╤─Rⱥvⱥή♛ ☠︎꧂ \n Me Sota Nhi Hu SIR🤧"
         "<b>𝚃𝙸𝙼𝙴 𝚃𝙰𝙺𝙴𝙽:</b> <code>{}</code>\n"
         "<b>𝚂𝙴𝚁𝚅𝙸𝙲𝙴 𝚄𝙿𝚃𝙸𝙼𝙴:</b> <code>{}</code>".format(telegram_ping, uptime),
         parse_mode=ParseMode.HTML,
