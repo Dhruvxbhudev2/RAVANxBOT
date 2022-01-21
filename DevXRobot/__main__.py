@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from DevXRobot import (
+from RAVANxBOT import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from DevXRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from DevXRobot.modules import ALL_MODULES
-from DevXRobot.modules.helper_funcs.chat_status import is_user_admin
-from DevXRobot.modules.helper_funcs.misc import paginate_modules
+from RAVANxBOT.modules import ALL_MODULES
+from RAVANxBOT.modules.helper_funcs.chat_status import is_user_admin
+from RAVANxBOT.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
