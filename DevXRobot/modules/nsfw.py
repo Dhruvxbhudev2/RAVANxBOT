@@ -4,14 +4,14 @@ import nekos
 import requests
 from PIL import Image
 from telegram import ParseMode
-from DevXRobot import dispatcher, updater
-import DevXRobot.modules.sql.nsfw_sql as sql
-from DevXRobot.modules.log_channel import gloggable
+from RAVANxBOT import dispatcher, updater
+import RAVANxBOT.modules.sql.nsfw_sql as sql
+from RAVANxBOT.modules.log_channel import gloggable
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CommandHandler, run_async, CallbackContext
-from DevXRobot.modules.helper_funcs.filters import CustomFilters
-from DevXRobot.modules.helper_funcs.chat_status import user_admin
+from RAVANxBOT.modules.helper_funcs.filters import CustomFilters
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
 @run_async
