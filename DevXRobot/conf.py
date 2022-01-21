@@ -1,5 +1,5 @@
 from envparse import env
-from DevXRobot import LOGGER
+from RAVANxBOT import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
