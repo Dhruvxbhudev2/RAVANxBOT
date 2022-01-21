@@ -1,8 +1,8 @@
 import time
 from telethon import events
 
-from DevXRobot import telethn
-from DevXRobot.modules.helper_funcs.telethn.chatstatus import (
+from RAVANxBOT import telethn
+from RAVANxBOT.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
