@@ -1,6 +1,6 @@
-from DevXRobot.modules.helper_funcs.chat_status import user_admin
-from DevXRobot.modules.disable import DisableAbleCommandHandler
-from DevXRobot import dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
+from RAVANxBOT.modules.disable import DisableAbleCommandHandler
+from RAVANxBOT import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update
