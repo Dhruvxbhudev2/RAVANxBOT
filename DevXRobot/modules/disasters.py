@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from DevXRobot import (
+from RAVANxBOT import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -13,13 +13,13 @@ from DevXRobot import (
     WOLVES,
     dispatcher,
 )
-from DevXRobot.modules.helper_funcs.chat_status import (
+from RAVANxBOT.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from DevXRobot.modules.helper_funcs.extraction import extract_user
-from DevXRobot.modules.log_channel import gloggable
+from RAVANxBOT.modules.helper_funcs.extraction import extract_user
+from RAVANxBOT.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
