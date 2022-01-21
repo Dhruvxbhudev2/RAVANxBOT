@@ -1,9 +1,9 @@
 from typing import Optional
 
-import DevXRobot.modules.sql.rules_sql as sql
-from DevXRobot import dispatcher
-from DevXRobot.modules.helper_funcs.chat_status import user_admin
-from DevXRobot.modules.helper_funcs.string_handling import markdown_parser
+import RAVANxBOT.modules.sql.rules_sql as sql
+from RAVANxBOT import dispatcher
+from RAVANxBOT.modules.helper_funcs.chat_status import user_admin
+from RAVANxBOT.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
