@@ -66,10 +66,10 @@ RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/RAVANxBOT
 RUN git clone -b shiken https://github.com/Dhruvxbhudev2 /root/RAVANxBOT
-WORKDIR /root/DevXRobot
+WORKDIR /root/RAVANxBOT
 
 #Copy config file to /root/RAVANxBOT/RAVANxBOT
-COPY ./DevXRobot/sample_config.py ./RAVANxBOT/config.py* /root/RAVANxBOT/RAVANxBOT/
+COPY ./RAVANxBOT/sample_config.py ./RAVANxBOT/config.py* /root/RAVANxBOT/RAVANxBOT/
 
 ENV PATH="/home/bot/bin:$PATH"
 
