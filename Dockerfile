@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/RAVANxBOT
-RUN git clone -b shiken https://github.com/Dhruvxbhudev2 /root/RAVANxBOT
+RUN git clone -b shiken https://github.com/Dhruvxbhudev2/RAVANxBOT /root/RAVANxBOT
 WORKDIR /root/RAVANxBOT
 
 #Copy config file to /root/RAVANxBOT/RAVANxBOT
