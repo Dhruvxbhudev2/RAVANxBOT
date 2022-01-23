@@ -21,7 +21,7 @@ from RAVANxBOT.modules.sql import disable_sql as disabledsql
 # from RAVANxBOT.modules.sql import cust_filters_sql as filtersql
 # import RAVANxBOT.modules.sql.welcome_sql as welcsql
 import RAVANxBOT.modules.sql.locks_sql as locksql
-from DevXRobot.modules.connection import connected
+from RAVANxBOT.modules.connection import connected
 
 
 @run_async
