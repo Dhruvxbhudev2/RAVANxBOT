@@ -402,6 +402,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from DevXRobot.modules import connection
+from RAVANxBOT.modules import connection
 
 connected = connection.connected
