@@ -7,7 +7,7 @@ from contextlib import suppress
 
 import RAVANxBOT.modules.sql.welcome_sql as sql
 import RAVANxBOT
-from DevXRobot import (
+from RAVANxBOT import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
