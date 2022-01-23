@@ -114,7 +114,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from DevXRobot.config import Development as Config
+    from RAVANxBOT.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -226,7 +226,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from DevXRobot.modules.helper_funcs.handlers import (
+from RAVANxBOT.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
