@@ -1,4 +1,4 @@
-# <p align="center">
+<p align="center">
 <h3 font=Maghrib.ttf>THE STRONGEST BOT FOR GROUP MANAGEMENT
 <p align="center">
 <img src="https://telegra.ph/file/3972670188dd54a994ea3.jpg" width="450">
