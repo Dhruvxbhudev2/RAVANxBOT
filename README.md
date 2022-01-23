@@ -1,5 +1,5 @@
-## CONTACT US instagram
-[![《NOOB◆OWNER》]](https://www.instagram.com/ds.__.16)
+## INSTAGRAM 
+[![《INSTAGRAM 》](https://www.instagram.com/ds.__.16)
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Dhruvxbhudev2/RAVANxBOT"> <img src="https://img.shields.io/badge/Deploy_Urself-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
