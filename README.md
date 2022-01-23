@@ -1,5 +1,5 @@
 ## CONTACT US
-[![ <h1>《NOOB◆OWNER》](https://img.shields.io/badge/versio_n_02-1b77FF.svg?style=for-the-badge=instagram](https://t.me/versio_n_02)
+[![ <h1>《NOOB◆OWNER》](https://img.shields.io/badge/versio_n_02-1b77FF.svg?style=for-the-badge&logo=instagram)(https://t.me/versio_n_02)
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Dhruvxbhudev2/RAVANxBOT"> <img src="https://img.shields.io/badge/Deploy_Urself-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
