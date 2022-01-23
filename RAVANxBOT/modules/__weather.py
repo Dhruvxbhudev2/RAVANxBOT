@@ -9,9 +9,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from DevXRobot import *
+from RAVANxBOT import *
 
-from DevXRobot.events import register
+from RAVANxBOT.events import register
 
 
 async def is_register_admin(chat, user):
