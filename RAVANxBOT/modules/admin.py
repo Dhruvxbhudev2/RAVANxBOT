@@ -15,7 +15,7 @@ from RAVANxBOT.modules.helper_funcs.chat_status import (
     user_admin,
     ADMIN_CACHE,
 )
-from DevXRobot.helper_extra.admin_rights import (
+from RAVANxBOT.helper_extra.admin_rights import (
     user_can_pin,
     user_can_promote,
     user_can_changeinfo,
