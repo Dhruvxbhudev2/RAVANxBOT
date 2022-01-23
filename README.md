@@ -1,6 +1,6 @@
 # <p align="center">
 <h3 font=Maghrib.ttf>THE STRONGEST BOT FOR GROUP MANAGEMENT
-<p align="center"><img src="(https://te.legra.ph/file/3972670188dd54a994ea3.jpg)"width=720>
+<p align="center"><img src="(https://te.legra.ph/file/3972670188dd54a994ea3.jpg)" width = 720 </p>
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Dhruvxbhudev2/RAVANxBOT"> <img src="https://img.shields.io/badge/Deploy_Urself-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
