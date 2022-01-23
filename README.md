@@ -16,11 +16,11 @@
 ## Find me on telegram & Instagram 
 [![Telegram](https://img.shields.io/badge/VERSIO_N_02-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/VERSIO_N_02)
 
-[![Instagram](https://instagram.com.button.svg?style=for-the-button=pink)](https://www.instagram.com/ds.__.16)
+[![Instagram](https://img.shields.io/badge/instagram.com.button.svg?style=for-the-badge&logo=pink)](https://www.instagram.com/ds.__.16)
 ## SUPPORT ND HELP 🤖
 
 [![SUPPORT CHAT](https://telegra.ph/file/078030b15d2122216d2d0.jpg)](https://t.me/YAROKIYARI_OFFICIAL)
-
+/
 ## UPDATES 💞
 
 [![UPDATES](https://telegra.ph/file/133730131def9724e5b5b.jpg)](https://t.me/THN_BOTS)
