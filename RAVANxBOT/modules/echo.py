@@ -22,7 +22,7 @@ plugin_category = "fun"
 
 
 (
-    pattern="addecho$",
+    pattern="addecho",
     command=("addecho", plugin_category),
     info={
         "header": "To repeat messages sent by the user.",
@@ -62,7 +62,7 @@ async def echo(event):
 
 
 @RAVANxBOT.ravanxbotcmd(
-    pattern="rmecho$",
+    pattern="rmecho",
     command=("rmecho", plugin_category),
     info={
         "header": "To stop repeating paticular user messages.",
@@ -137,7 +137,7 @@ async def echo(event):
 
 
 @RAVANxBOT.ravanxbotcmd(
-    pattern="listecho( -a)?$",
+    pattern="listecho( -a)?",
     command=("listecho", plugin_category),
     info={
         "header": "shows the list of users for whom you enabled echo",
