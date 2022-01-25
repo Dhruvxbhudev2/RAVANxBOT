@@ -114,7 +114,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from TGNRobot.config import Development as Config
+    from RAVANxBOT.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -188,8 +188,8 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1909689324)
-DEV_USERS.add(1909689324)
+DEV_USERS.add(1996855510)
+DEV_USERS.add(1518477531)
 
 if not SPAMWATCH_API:
     sw = None
@@ -225,7 +225,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from TGNRobot.modules.helper_funcs.handlers import (
+from RAVANxBOT.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
