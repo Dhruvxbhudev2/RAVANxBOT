@@ -236,13 +236,13 @@ class Config:
     TOKEN=os.environ['TOKEN']
     API_HASH=os.environ['API_HASH']
     API_ID=int(os.environ['API_ID'])
-    if not TELEGRAM_TOKEN:
+    if not TOKEN:
         raise ValueError('TELEGRAM BOT TOKEN not set')
 
-    if not TELEGRAM_APP_HASH:
+    if not API_HASH:
         raise ValueError("TELEGRAM_APP_HASH not set")
 
-    if not TELEGRAM_APP_ID:
+    if not API_ID:
         raise ValueError("TELEGRAM_APP_ID not set")
 logging.basicConfig(
     level=logging.DEBUG,
