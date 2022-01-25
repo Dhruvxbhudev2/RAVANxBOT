@@ -252,9 +252,9 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 bot=Client(
            ":memory:",
-           api_id=Config.TELEGRAM_APP_ID,
-           api_hash=Config.TELEGRAM_APP_HASH,
-           bot_token=Config.TELEGRAM_TOKEN
+           api_id=Config.API_ID,
+           api_hash=Config.API_HASH,
+           bot_token=Config.TOKEN
 )
 
 # make sure the regex handler can take extra kwargs
