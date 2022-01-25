@@ -230,5 +230,3 @@ from RAVANxBOT.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
-
-# make sure the regex handler can take extra kwargs
