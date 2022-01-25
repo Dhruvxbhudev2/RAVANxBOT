@@ -233,6 +233,6 @@ from RAVANxBOT.modules.helper_funcs.handlers import (
     CustomRegexHandler,
 
 # make sure the regex handler can take extra kwargs
-tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
+tg.RegexHandler = CustomRegexHandler
