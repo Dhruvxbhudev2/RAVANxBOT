@@ -231,31 +231,6 @@ from RAVANxBOT.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
-)
-class Config:
-    TOKEN=os.environ['TOKEN']
-    API_HASH=os.environ['API_HASH']
-    API_ID=int(os.environ['API_ID'])
-    if not TOKEN:
-        raise ValueError('TELEGRAM BOT TOKEN not set')
-
-    if not API_HASH:
-        raise ValueError("TELEGRAM_APP_HASH not set")
-
-    if not API_ID:
-        raise ValueError("TELEGRAM_APP_ID not set")
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
-
-bot=Client(
-           ":memory:",
-           api_id=Config.API_ID,
-           api_hash=Config.API_HASH,
-           bot_token=Config.TOKEN
-)
 
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
