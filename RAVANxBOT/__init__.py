@@ -7,7 +7,6 @@ import httpx
 import aiohttp
 import telegram.ext as tg
 
-from pyrogram import Client,filters
 from pyrogram import Client, errors
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid, ChannelInvalid
 from telethon import TelegramClient
@@ -233,3 +232,6 @@ from RAVANxBOT.modules.helper_funcs.handlers import (
     CustomRegexHandler,
 
 # make sure the regex handler can take extra kwargs
+tg.RegexHandler = CustomRegexHandler
+tg.CommandHandler = CustomCommandHandler
+tg.MessageHandler = MessageHandler
